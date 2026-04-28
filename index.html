@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo list app</title>
+    <link rel="stylesheet" href="todo.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="todo">
+
+    
+    <h1 class="TODO">My Todo-list app</h1>
+
+    <form id="form">
+
+       <input type="text" id="taskInput" placeholder="Enter new task">
+    
+       <button type="button" id="addBtn"> <i class="fa-solid fa-plus"></i></i></button> 
+
+    </form>
+
+        <!-- FETCH TASKS FROM FAKE API -->
+        <button id="fetchData" style="margin-bottom: 10px; background-color: chocolate;">Fetch External Todos</button>
+       <div class="number">
+        <h4 class="mytasks">My Tasks</h4>
+        <p style="color: grey;"> Total number of tasks: <span id="taskCount">0</span></p>
+
+       </div>
+        
+        <ul id="taskList"></ul>
+
+        <button type="button" id="clearBtn">Clear All</button>
+
+    </div>
+
+    
+    
+
+
+    <script src="todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+
+  background-color: darkslateblue;
+}
+
+#fetchData {
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.TODO {
+  text-align: center;
+}
+
+.todo {
+  border: 1.5px silver solid;
+  border-radius: 22px;
+  margin: 100px 350px;
+  background-color: white;
+  /* text-align: left; */
+  font-display: block;
+  padding-left: 20px;
+}
+li {
+  list-style-position: inside;
+  border: 1px grey solid;
+  border-radius: 15px;
+  margin-bottom: 2px;
+  margin-right: 20px;
+  background-color: white;
+  padding: 3px 6px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+li .editBtn {
+  margin-left: auto;
+}
+
+li button {
+  padding: 4px 8px;
+}
+
+#taskCount {
+  font-weight: lighter;
+  margin-top: 2px;
+}
+
+#taskInput {
+  background-color: white;
+  outline: none;
+}
+
+#taskList {
+  line-height: 1.8;
+  padding-left: 0;
+  margin-left: 0;
+  /* display: rows;
+    justify-content: space-between;
+     */
+}
+
+#addBtn {
+  background-color: mediumslateblue;
+}
+
+#clearBtn {
+  background-color: chocolate;
+  margin-top: 10px;
+  padding: 5px 115px;
+  margin-left: 50px;
+}
+
+#editBtn {
+  background-color: turquoise;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+#deleteBtn {
+  background-color: yellow;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+.number {
+  line-height: 0.2;
+}
