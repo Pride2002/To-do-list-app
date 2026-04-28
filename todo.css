@@ -17,7 +17,7 @@ body {
 .todo {
   border: 1.5px silver solid;
   border-radius: 22px;
-  margin: 10% 35%;
+  margin: 10% 35% 10% 0%;
   height: 100%;
   width: auto;
   /* margin: 100px 400px; */
@@ -25,6 +25,7 @@ body {
   /* text-align: left; */
   font-display: block;
   padding-left: 20px;
+  
 }
 li {
   list-style-position: inside;
