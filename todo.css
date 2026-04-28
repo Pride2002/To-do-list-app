@@ -17,7 +17,7 @@ body {
 .todo {
   border: 1.5px silver solid;
   border-radius: 22px;
-  margin: 100px 350px;
+  margin: 100px 400px;
   background-color: white;
   /* text-align: left; */
   font-display: block;
@@ -52,7 +52,7 @@ li button {
 #taskInput {
   background-color: white;
   outline: none;
-  padding: 7px 40px;
+  padding: 7px 20px;
 }
 
 #taskList {
@@ -72,8 +72,8 @@ li button {
   font-size: larger;
   background-color: chocolate;
   margin-top: 10px;
-  padding: 7px 150px 7px 160px;
-  margin-left: 50px;
+  padding: 5px 100px;
+  /* margin-left: 50px; */
 }
 
 #editBtn {
