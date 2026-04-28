@@ -17,7 +17,8 @@ body {
 .todo {
   border: 1.5px silver solid;
   border-radius: 22px;
-  margin: 10% 35% 10% 0%;
+  /* margin: 10% 35% 10% 0%; */
+  margin: 50px 50px;
   height: 100%;
   width: 100%;
   /* margin: 100px 400px; */
