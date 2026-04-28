@@ -17,7 +17,10 @@ body {
 .todo {
   border: 1.5px silver solid;
   border-radius: 22px;
-  margin: 100px 400px;
+  margin: 10% 35%;
+  height: 100%;
+  width: auto;
+  /* margin: 100px 400px; */
   background-color: white;
   /* text-align: left; */
   font-display: block;
@@ -72,7 +75,7 @@ li button {
   font-size: larger;
   background-color: chocolate;
   margin-top: 10px;
-  padding: 5px 100px;
+  padding: 5px 110px;
   /* margin-left: 50px; */
 }
 
